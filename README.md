@@ -1,29 +1,32 @@
 # DNN_watching_TV_action_detection
 Deep Learning model that detects the action of Watching TV in a video
+
 # Install Dependencies
 
-pandas
-numpy
-scipy
-sklearn
-tensorflow-gpu
-keras
-matplotlib
+    pandas
+    numpy
+    scipy
+    sklearn
+    tensorflow-gpu
+    keras
+    matplotlib
 
 # Execution
 
 # Generate landmarks:
 
-       Videos are submitted to the OpenPose portable execution file to generate json files of the body landmarks, and the left and right hand landmarks for each frame in the video.
+    Videos are submitted to the OpenPose portable execution file to generate json files of the body landmarks, and the left and right hand landmarks for each frame in the video.
 
 # Preprocess data:
 
-    Read the json files in every folder.
+    Read the json files (landmarks for each frame in the video) in every folder.
     Collect the full body (pose), and the left and right hand landmarks.
     Calculate the euclidean distances between body pose landmarks for each frame
     Calculate the euclidean distances between left hand landmarks for each frame
     Calculate the euclidean distances between right hand landmarks for each frame       
     Output the file for each video.
+
+    The above operations can be executed by running 'parse_json_tv.ipynb'
 
 # Deep Learning model:
 
@@ -31,8 +34,13 @@ matplotlib
     Read the test data file.
     Normalize the features for both training and test data in the interval [0,1].
     Fit the Deep Learning model on training data.
-    Test the model on testing data. 
-    
-    
+    Test the model on testing data.
+    Save Time vs Label JSON file and graph.
 
-      
+    The above operations can be executed by running 'tv_dnn_model.ipynb'
+
+# Trained model:
+
+    The trained model is available in the below path
+
+    DNN_watching_TV_action_detection/Trained_model

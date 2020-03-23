@@ -15,11 +15,11 @@ Deep Learning model that detects the action of Watching TV in a video
 
 # Generate landmarks:
 
-    Videos are submitted to the OpenPose portable execution file to generate json files of the body landmarks, and the left and right hand landmarks for each frame in the video.
+    Videos are submitted to the OpenPose portable execution file to generate JSON files of the body landmarks, and the left and right hand landmarks for each frame in the video.
 
 # Preprocess data:
 
-    Read the json files (landmarks for each frame in the video) in every folder.
+    Read the JSON files (landmarks for each frame in the video) in every folder.
     Collect the full body (pose), and the left and right hand landmarks.
     Calculate the euclidean distances between body pose landmarks for each frame
     Calculate the euclidean distances between left hand landmarks for each frame
@@ -44,3 +44,7 @@ Deep Learning model that detects the action of Watching TV in a video
     The trained model is available in the below path
 
     DNN_watching_TV_action_detection/Trained_model
+
+# Code Demo Video Link:
+
+    https://youtu.be/hDs4ejh7kMY  

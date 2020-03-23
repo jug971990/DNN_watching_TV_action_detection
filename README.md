@@ -34,9 +34,5 @@ matplotlib
     Test the model on testing data. 
     
     
-# Trained model:
-    The trained model is available in 
-    
-# Sample Test Videos:
-    Sample test videos are available in 
+
       

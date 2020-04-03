@@ -41,7 +41,7 @@ Deep Learning model that detects the action of Watching TV in a video
 
 # Trained model:
 
-    The trained model is available in the below path
+    The trained models are available in the below path
 
     DNN_watching_TV_action_detection/Trained_model
 

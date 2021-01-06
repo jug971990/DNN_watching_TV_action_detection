@@ -1,4 +1,4 @@
-# DNN_watching_TV_action_detection
+# Watching TV Action Detection in videos using Deep LearningYours sincerely
 Deep Learning model that detects the action of Watching TV in a video
 
 # Install Dependencies

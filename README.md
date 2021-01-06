@@ -1,4 +1,4 @@
-# Watching TV Action Detection in videos using Deep LearningYours sincerely
+# Watching TV Action Detection in videos using Deep Learning
 Deep Learning model that detects the action of Watching TV in a video
 
 # Install Dependencies
